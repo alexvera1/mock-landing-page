@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  /*-webkit- = used for Chrome and Safari browsers.*/
+  -moz-background-size: cover;
+  /* -moz- = used for Mozilla Firefox  */
+  -o-background-size: cover;
+  /* -o- = used for Opera  */
+  -ms-background-size: cover;
+  /* -ms- = used for Microsoft Internet Explorer  */
+  background-size: cover;
+}
+
+/* These different properties are termed as "vendor prefixes": 
+-moz- = used for Mozilla Firefox 
+-ms- = used for Microsoft Internet Explorer 
+-o- = used for Opera 
+-webkit- = used for Google Chrome and Apple Safari browsers. 
+*/
+
+
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+hr {
+  border-color: #F05F44;
+  margin: 20px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+  cursor: pointer;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
